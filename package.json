@@ -1,0 +1,28 @@
+{
+  "name": "cc_games",
+  "version": "1.0.0",
+  "description": "Каждый из нас когда-то играл в Змейку и Тетрис. Эти игры считаются классикой компьютерных игр, но таких игр намного больше. Мы предлагаем вам веб приложение с каталогом популярнейших классических компьютерных игр и небольшую историческую справку к каждой игре, где будет описана история создания этой игры и некоторые интересные факты о ней.\r # Тип проекта: \r   Веб приложение.\r # Цель проекта: \r   Сайт, на котором можно поиграть в классические игры и прочесть историческую справку по каждой игре.\r # Задачи:\r 1.\tВыбрать перечень игр, которые будут представлены на сайте;\r 2.  Создать историческую справку по каждой игре;\r 3.\tПриступить к написанию кода клиентской и серверной частей;\r 4.\tПрезентовать готовое веб приложение.\r # Используемые технологии:\r +\tFront-end: JavaScript, AngularJS, HTML, CSS;\r +\tBack-end: Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config src/server/app.js",
+    "dev": "nodemon -r dotenv/config src/server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonySatrem/CC_Games.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TonySatrem/CC_Games/issues"
+  },
+  "homepage": "https://github.com/TonySatrem/CC_Games#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
